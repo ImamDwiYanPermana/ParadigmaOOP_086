@@ -16,10 +16,15 @@ public :
 	void cetakAnak();
 };
 
-void ibu:: = cetakAnak() {
+void ibu::tambahAnak(anak* pAnak) {
+	daftar_anak.push_back(pAnak);
+}
+
+void ibu::cetakAnak() {
 	cout << "daftar Anak dari IBu \"" << this->nama << "\":\n";
 	for (auto& a : daftar_anak) {
-		cout << a-> nama << "\n"
+		cout << a->nama << "\n";
 	}
 	cout << endl;
 }
+#endif 
