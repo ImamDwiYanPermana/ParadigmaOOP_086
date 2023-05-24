@@ -3,7 +3,7 @@
 using namespace std;
 
 #include "jantung.h"
-#include "manusia.h"
+#include "Manusia.h"
 
 int main()
 {
