@@ -32,6 +32,10 @@ class dokter;
         void tambahkanPasien(pasien*);
         void cetakPasien();
     };
+
+    void pasien::tambahkanPasien(dokter* pDokter) {
+        daftar_dokter.push_back(pDokter);
+    }
 int main()
 {
     std::cout << "Hello World!\n";
