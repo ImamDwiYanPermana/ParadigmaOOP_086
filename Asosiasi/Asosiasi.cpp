@@ -44,6 +44,11 @@ class dokter;
         }
         cout << endl;
     }
+    void dokter::tambahPasien(pasien* pPasien) {
+        cout << " Daftar Pasien dari dokter\n";
+        pPasien->tambahDokter(this);
+    }
+
 int main()
 {
     std::cout << "Hello World!\n";
