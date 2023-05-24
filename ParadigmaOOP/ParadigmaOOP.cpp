@@ -15,7 +15,13 @@ public:
     ~orang() {
         cout << "Orang di hapus" << endl;
     }
-}
+
+    int jumlah(int a, int b) {
+        return a + b;
+    }
+};
+
+
 
 int main()
 {
