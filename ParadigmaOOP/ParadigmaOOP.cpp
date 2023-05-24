@@ -39,7 +39,10 @@ public :
 };
 int main()
 {
-    std::cout << "Hello World!\n";
-}
+    pelajar siswa1("andi lasksono", " SMAN 1 BANTUL");
+    cout << siswa1.perkenalan();
+    cout << "hasi =" << siswa1.jumlah(10, 90) << endl;
 
+    return 0;
 
+};
