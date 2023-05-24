@@ -57,7 +57,10 @@ class dokter;
     }
 int main()
 {
-    std::cout << "Hello World!\n";
+    dokter* varDokter1 = new dokter("dr.budi");
+    dokter* varDokter1 = new dokter("dr.Tono");
+    dokter* varDokter1 = new dokter("Andii");
+    dokter* varDokter1 = new dokter("Lia");
 }
 
 
