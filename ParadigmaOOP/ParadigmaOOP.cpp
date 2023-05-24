@@ -3,11 +3,14 @@
 
 using namespace std;
 
-clas ornag{
+class orang{
 public :
-    string Nama;
+    string nama;
 
-    orang(string pNama);
+    orang(string pNama):
+    nama(pNama){
+        cout << "Orang di buat\n" << endl;
+        }
 }
 
 int main()
