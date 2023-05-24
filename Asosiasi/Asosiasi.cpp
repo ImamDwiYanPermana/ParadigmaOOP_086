@@ -27,14 +27,22 @@ class dokter;
             cout << "dokter\"" << nama << "\"ada\n";
         }
         ~dokter(){
-            cout << "dokter"\"" << nama << "\"tidak ada\n";
+            cout << "dokter\n" << nama << "\"tidak ada\n";
         }
-        void tambahkanPasien(pasien*);
+        void tambahPasien(pasien*);
         void cetakPasien();
     };
 
-    void pasien::tambahkanPasien(dokter* pDokter) {
+    void pasien::tambahDokter(dokter* pDokter) {
         daftar_dokter.push_back(pDokter);
+    }
+
+    void pasien::cetakDokter() {
+        cout << "Daftar Dokter Yang Menangani pasien \n" << this->nama << "\:\n";
+        for (auto& a : daftar_dokter) {
+            cout << a->nama << "\n";
+        }
+        cout << endl;
     }
 int main()
 {
